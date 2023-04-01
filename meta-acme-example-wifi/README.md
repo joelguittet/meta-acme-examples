@@ -12,7 +12,7 @@ This layer depends on the additional layers:
 * meta-openembedded/meta-python
 * meta-openembedded/meta-networking
 * meta-atmel
-* meta-acme (from my GitHub https://github.com/myfreescalewebpage/meta-acme)
+* meta-acme (from my GitHub https://github.com/joelguittet/meta-acme)
 
 
 Images
@@ -29,11 +29,11 @@ Using
 
 Clone sources:
 
-	git clone https://github.com/myfreescalewebpage/meta-acme-examples.git ~/yocto/meta-acme-examples
+	git clone https://github.com/joelguittet/meta-acme-examples.git ~/yocto/meta-acme-examples
 
 Add "meta-acme-examples/meta-acme-example-wifi" to the bitbake layers configuration file.
 
-See the README file of the meta-acme layer (from my GitHub https://github.com/myfreescalewebpage/meta-acme) to check details about building and flashing images on the Acme Systems board.
+See the README file of the meta-acme layer (from my GitHub https://github.com/joelguittet/meta-acme) to check details about building and flashing images on the Acme Systems board.
 
 ### acme-image-example-wifi
 
@@ -54,4 +54,4 @@ Use Github Issues to report anomalies or to propose enhancements (labels are ava
 References
 --
 
-* https://github.com/myfreescalewebpage/meta-acme
+* https://github.com/joelguittet/meta-acme
