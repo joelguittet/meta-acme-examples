@@ -1,14 +1,14 @@
 # Customization of hostapd
 
 # Files directory
-FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
 # Sources
-SRC_URI_append = " \
+SRC_URI:append = " \
     file://hostapd.conf \
 "
 
 # Install configuration
-do_install_append() {
+do_install:append() {
     install -m 0644 ${WORKDIR}/hostapd.conf ${D}${sysconfdir}
 }
